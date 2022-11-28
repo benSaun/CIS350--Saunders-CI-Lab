@@ -14,4 +14,10 @@ def test_calc_multiply_fail():
 def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
+def test_power_of_two():
+    output = power_of_two(3)
+    assert output == 9
+def test_power_of_three():
+    output = power_of_three(3)
+    assert output == 27
 
